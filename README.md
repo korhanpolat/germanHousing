@@ -18,9 +18,7 @@
   Tuned CatBoost model without text features and achieved $RMSE:0.14$ and $R^{2}:0.91$ for log prices.
     <img width="400" alt="resim" src="https://github.com/korhanpolat/germanHousing/assets/25014836/65eb7004-92ac-41cc-bf8f-78c54d1c409a">
 
-
-
-- Encoded text embeddings with [Sentence Transformers](https://www.sbert.net/) by using a Multilingual model that supports German.
+- Encoded text embeddings with [Sentence Transformers](https://www.sbert.net/) by using a Multilingual model that supports German, as shown in [`housing_text.ipynb`](housing_text.ipynb)
 
 *Did not have time to tune for encoded embeddings and text features.*
 
