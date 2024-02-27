@@ -15,7 +15,7 @@
   $$assumedRent = baseRent + serviceCharge + heatingCosts$$
   Also $log(rent)$ is used since it's closer to Normal distribution.
 - For **model selection and parameter tuning**, employed nested cross validation with Bayesian Optimization Library [SkOpt](https://scikit-optimize.github.io/stable/index.html).
-  Tuned CatBoost model without text features and achieved $RMSE:0.14$ and $R^{2}:0.91$ for log prices.
+  Tuned CatBoost model without text features and achieved $RMSE:0.14$ and $R^{2}:0.91$ for log prices.  
     <img width="400" alt="resim" src="https://github.com/korhanpolat/germanHousing/assets/25014836/65eb7004-92ac-41cc-bf8f-78c54d1c409a">
 
 - Encoded text embeddings with [Sentence Transformers](https://www.sbert.net/) by using a Multilingual model that supports German, as shown in [`housing_text.ipynb`](housing_text.ipynb)
