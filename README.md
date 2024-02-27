@@ -8,7 +8,7 @@
 
 ## What's Done
 
-- Each feature is examined and some irrelevant features are discarded, as can be found in [EDA notebook](housing_eda.ipynb).
+- Each feature is examined and some irrelevant features are discarded, as can be found in [`housing_eda.ipynb`](housing_eda.ipynb)
 - Used [CatBoost](https://catboost.ai/) as the main **Regressor model**, because it handles categorical variables with sophisticated algorithms and can handle N/A's as 'other' class.
   It also supports text features and embedding features. 
 - **Target** is chosen as `totalRent`. Missing or abnormal values are treated according to this relation:
