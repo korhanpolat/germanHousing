@@ -20,9 +20,6 @@
 
 - Encoded text embeddings with [Sentence Transformers](https://www.sbert.net/) by using a Multilingual model that supports German, as shown in [`housing_text.ipynb`](housing_text.ipynb)
 
-*Did not have time to tune for encoded embeddings and text features.*
-
-
     
 ## Improvements 
 - [ ] Tune with text embeddings
